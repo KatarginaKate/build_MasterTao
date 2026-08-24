@@ -930,6 +930,11 @@ body {
   background-color: #282B38;
   color: #fff;
   font-family: "ProximaNova";
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 24px;
 }
 
 a {
