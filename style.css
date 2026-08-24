@@ -424,6 +424,8 @@ header .navbar-collapse {
   max-width: 390px;
   width: 100%;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 .questions .template-title {
   margin-bottom: 49px;
@@ -829,7 +831,7 @@ footer .footer-links .footer-info a:hover {
     line-height: 149.5%;
   }
   .questions {
-    margin: 0 20px;
+    margin: 0;
     margin-bottom: 60px;
   }
   .questions .template-title h2 {
@@ -842,6 +844,11 @@ footer .footer-links .footer-info a:hover {
   .questions-form {
     width: 335px;
     padding: 38px 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .questions .col-lg-4 {
+    max-width: 100%;
   }
   .questions-title {
     text-align: center;
@@ -870,10 +877,30 @@ footer .footer-links .footer-info a:hover {
     margin-bottom: 38px;
   }
   .cooperation .btn {
-    width: 335px;
+    width: 100%;
+    max-width: 335px;
   }
   .cooperation .btn img {
     margin-left: auto;
+  }
+  .calculation .container,
+  .advantages .container,
+  .delivery .container,
+  .services .container,
+  .about .container,
+  .questions .container,
+  .cooperation .container,
+  footer .container {
+    text-align: center;
+  }
+  .calculation-form,
+  .questions-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cooperation-list {
+    margin-left: auto;
+    margin-right: auto;
   }
   footer {
     padding-bottom: 44px;
